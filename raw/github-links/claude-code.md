@@ -1,5 +1,4 @@
-# Github — claude-code
+# 2501.12948
 
-**来源**: https://github.com/anthropics/claude-code
-
-**意图**: 分析这个项目 https://github.com/anthropics/claude-code
+**来源**: https://arxiv.org/abs/2501.12948
+**意图**: 帮我总结这篇论文的核心内容
