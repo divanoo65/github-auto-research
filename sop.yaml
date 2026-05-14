@@ -1,0 +1,28 @@
+name: github-auto-research
+version: "1.0"
+wiki_local_path: /home/zhouhuijuan1987/wiki/github-auto-research
+repo: divanoo65/github-auto-research
+
+notify:
+  telegram:
+    token_env: YOUTUBE_WIKI_TG_TOKEN
+    chat_id: "6938920500"
+
+terminal_paths:
+  - wiki/**
+  - log.md
+  - logs/pipeline-runs/**
+
+pipeline:
+  - stage: wiki-build
+    trigger: raw/github-links/**
+    webhook_route: sop-wiki-build
+    params:
+      build_mode: incremental
+      source_dir: raw/github-links
+
+  - stage: tg-notify
+    trigger: index.md
+    webhook_route: sop-tg-notify
+    params:
+      build_mode: notify
