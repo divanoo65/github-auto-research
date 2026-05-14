@@ -1,0 +1,24 @@
+{
+  "stage_b": {
+    "run_id": "gh-25851986249-1",
+    "status": "success",
+    "processed_urls": ["https://github.com/anthropics/claude-code"],
+    "videos_processed": 1
+  },
+  "stage_c": {
+    "run_id": "gh-25851986249-1",
+    "start_time": "2026-05-14T09:14:10Z",
+    "end_time": "2026-05-14T09:14:36Z",
+    "duration_s": 25,
+    "llm_calls": 7,
+    "pages_created": 14,
+    "sources": 2,
+    "entities": 5,
+    "concepts": 7,
+    "comparisons": 0,
+    "prompt_tokens": 3343,
+    "completion_tokens": 5157,
+    "status": "success"
+  },
+  "tg_summary": "[GITHUB-RESEARCH] #T-gh-25852036714-1 ✅ 一遍过\n\n📦 anthropics/claude-code\n🔗 https://github.com/anthropics/claude-code\n\n⏱️ 耗时：Stage C 25s\n🔢 Token：8,500（↑3,343 / ↓5,157）\n\n📊 知识图谱：\n  Source 2 / Entity 5 / Concept 7 / 总 14 页\n\n🟢 Entities：\n  · Anthropic\n  · Claude Code\n  · Claude Opus\n  · Claude Sonnet\n  · GitHub\n\n🟡 Concepts：\n  · AI 编程助手\n  · CLI 工具\n  · Git 工作流\n  · 上下文管理\n  · 代码库上下文\n  · 工具调用\n  · 权限系统\n\n🔗 入口：\n  · Claude Code 项目分析\n    https://github.com/divanoo65/github-auto-research/blob/main/wiki/sources/claude-code-项目分析.md\n  · Github — claude-code 项目分析\n    https://github.com/divanoo65/github-auto-research/blob/main/wiki/sources/github-claude-code-项目分析.md\n  · 知识图谱索引\n    https://github.com/divanoo65/github-auto-research\n\nrun_id: gh-25852036714-1"
+}
