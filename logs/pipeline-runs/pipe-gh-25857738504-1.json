@@ -1,0 +1,25 @@
+{
+  "stage_b": {
+    "run_id": "gh-25857738504-1",
+    "status": "success",
+    "processed_urls": ["https://github.com/anthropics/claude-code"],
+    "videos_processed": 1
+  },
+  "stage_c": {
+    "run_id": "gh-25857680835-1",
+    "start_time": "2026-05-14T11:32:24Z",
+    "end_time": "2026-05-14T11:32:47Z",
+    "duration_s": 23,
+    "llm_calls": 7,
+    "pages_created": 21,
+    "sources": 5,
+    "entities": 6,
+    "concepts": 10,
+    "comparisons": 0,
+    "prompt_tokens": 3850,
+    "completion_tokens": 4119,
+    "total_tokens": 7969,
+    "status": "success"
+  },
+  "tg_summary": "[GITHUB-RESEARCH] #T-gh-25857738504-1 ✅ 一遍过\n\n📦 anthropics/claude-code\n🔗 https://github.com/anthropics/claude-code\n\n⏱️ 耗时：Stage C 23s\n🔢 Token：7,969（↑3,850 / ↓4,119）\n\n📊 知识图谱：\n  Source 5 / Entity 6 / Concept 10 / 总 21 页\n\n🟢 Entities：\n  · Anthropic\n  · arXiv\n  · Claude Code\n  · Claude Opus\n  · Claude Sonnet\n  · GitHub\n\n🟡 Concepts：\n  · AI 编程助手\n  · CLI 工具\n  · Git 工作流\n  · 上下文管理\n  · 代码库上下文\n  · 学术预印本\n  · 工具调用\n  · 技术栈\n  · 权限系统\n  · 架构设计\n\n🔗 入口：\n  · 分析 Claude Code 项目架构设计\n    https://github.com/divanoo65/github-auto-research/blob/main/wiki/sources/分析-claude-code-项目架构设计.md\n  · 知识图谱索引\n    https://github.com/divanoo65/github-auto-research\n\nrun_id: gh-25857738504-1"
+}
